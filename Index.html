@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <title>GFG- Store Data</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+            <h2 class="logo">Give Us <span>Feedback</span></h2>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div id="contact">
+            <div class="container2">
+                <div class="row">
+
+                    <div class="contact-right">
+                        <form action="insert.php" method="POST">
+
+                            <p>
+                                <label for="first_Name">First Name:</label>
+                                <input type="text" name="first_name" id="first_Name">
+                            </p>
+
+
+                            <p>
+                                <label for="last_Name">Last Name:</label>
+                                <input type="text" name="last_name" id="last_Name">
+                            </p>
+
+
+                            <p>
+                                <label for="emailAddress">Enter Your Email</label>
+                                <input type="text" name="email" id="emailAddress">
+                            </p>
+                            <p>
+                                <label for="Number">Enter Phone Number</label>
+                                <input type="text" name="Number" id="Number">
+                            </p>
+                            <p>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            </p>
+
+                            <button type="submit" class="btn">Give us Feedback</button>
+                        </form>
+                    </div>
+</body>
+
+</html>

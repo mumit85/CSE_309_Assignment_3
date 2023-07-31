@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: whitesmoke;
+    color:black
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navbar {
+    background-color: skyblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: sticky;
+    top: 0;
+
+}
+
+.main {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    color: antiquewhite;
+    font-size: 3rem;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#navbar span {
+    color: white;
+}
+
+span {
+    color: antiquewhite;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.menu li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.menu li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fec305;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+
+}
+
+
+/*----------------------------Contact Us Page --------------------------------------*/
+#contact {
+    padding-top: 150px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 0%;
+}
+
+.contact-left p {
+    margin-top: 70px;
+    font-size: 12px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 14px 50px;
+    border-radius: 6px;
+    background: gray;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: skyblue;
+    color: #000000;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: rgb(214, 214, 214);
+    padding: 15px;
+    margin: 15px 0;
+    color: #fec305;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn {
+    pad: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.list-form form input {
+    background: antiquewhite;
+    color: black;
+    width: 50%;
+}
